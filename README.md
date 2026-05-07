@@ -2,4 +2,4 @@
 
 ---
 
-NixOS Flake + Home-manager
+NixOS Flake + Home-manager. A work in progess....
