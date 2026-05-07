@@ -1,0 +1,48 @@
+{ config, pkgs, lib, ... }:
+
+{
+	programs.steam.enable = true;
+	programs.steam.gamescopeSession.enable = true;
+	programs.gamemode.enable = true;
+
+	environment.systemPackages = with pkgs; [
+		# core utils
+		wget 
+		curl 
+		wl-clipboard 
+		zip
+		unzip 
+		p7zip 
+		libarchive 
+		flatpak 
+		htop 
+		fzf 
+		ripgrep 
+		fd 
+		auto-cpufreq 
+		killall 
+		brightnessctl
+
+		# dev tools
+		git 
+		gcc 
+		gnumake 
+		cmake 
+		gfortran 
+		python3 
+		uv 
+		rustup 
+		typst 
+		starship
+
+		# apps
+		kitty
+		zathura 
+		libreoffice 
+		spotify
+		protonup-qt
+		
+		# misc
+		bibata-cursors
+	];
+}
