@@ -20,5 +20,5 @@ flatpak install flathub io.gitlab.librewolf-community org.libreoffice.LibreOffic
 ---
 
 **`To do list`**
-- [ ] Configure Nixvim
+- [x] Configure Nixvim
 - [ ] Switch from waybar to noctalia
