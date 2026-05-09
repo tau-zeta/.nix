@@ -36,7 +36,7 @@
 
 							imports = [
 								inputs.nixvim.homeModules.nixvim
-								./home
+								./home-manager
 							];
 						};
 					}
