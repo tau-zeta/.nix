@@ -4,6 +4,7 @@
 	imports = [
 		./nixvim
 		./bash.nix
+		./zathura.nix
 	];
 
 	programs.kitty = {
