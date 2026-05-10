@@ -10,7 +10,7 @@
 		enable = true;
 		themeFile = "vague";
 		settings = {
-			font_family = "SpaceMono Nerd Font";
+			font_family = "GeistMono Nerd Font";
 			font_size = "11";
 			bold_font = "auto";
 			italic_font = "auto";
